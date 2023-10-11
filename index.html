@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive CV</title>
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="left-side">
+            <div class="ProfileText">
+                <div class="imgBx">
+                    <img src="{{(url_for('static', filename='img.jpg'))}}">
+                </div>
+                <h2>M. Karthik<br><span>Web & App Developer</span></h2>
+            </div>
+            <div class="contactInfo">
+                <h3 class="title">Contact Info</h3>
+                <ul>
+                    <li>
+                        <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <a href="tel:+919182861140" class="text">+91 9182861140</a>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                        <a href="mailto:karthik1404m@gmail.com" class="text">karthik1404m@gmail.com</a>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-telegram" aria-hidden="true"></i></span>
+                        <a href="https://t.me/RK_Karthik14" class="text" target="_blank">https://t.me/RK_Karthik14</a>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-instagram" aria-hidden="true"></i></span>
+                        <a href="https://www.instagram.com/karthik_krithik14/" class="text" target="_blank">karthik_krithik14</a>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
+                        <a href="https://www.linkedin.com/in/karthik-m-34989428b" class="text" target="_blank">www.linkedin.com/in/karthik-m-34989428b</a>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        <span class="text">Hyderabad, Telangana, India</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="contactInfo education">
+                <h3 class="title">Education</h3>
+                <ul>
+                    <li>
+                        <h5>2009 - 2019</h5>
+                        <h4>SSC</h4>
+                        <h4>G. Pulla Reddy High School</h4>
+                    </li>
+                    <li>
+                        <h5>2019 - 2021</h5>
+                        <h4>Intermediate - BiPC</h4>
+                        <h4>Sri Chaitanya Jr Kalasala</h4>
+                    </li>
+                    <li>
+                        <h5>2022 - 2026</h5>
+                        <h4>B.Tech - CSE</h4>
+                        <h4>KL University</h4>
+                    </li>
+                </ul>
+            </div>
+            <div class="contactInfo language">
+                <h3 class="title">Language</h3>
+                <ul>
+                    <li>
+                        <span class="text">English</span>
+                        <span class="percent">
+                            <div style="width: 80%;"></div>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="text">Telugu</span>
+                        <span class="percent">
+                            <div style="width: 90%;"></div>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="text">Hindi</span>
+                        <span class="percent">
+                            <div style="width: 70%;"></div>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="about">
+                <div class="lable">
+                    <i class="fa fa-address-card-o" aria-hidden="true"></i>
+                    <h4 class="title2">Profile</h4>
+                </div>
+                <p>App & Web developer driven by a love of developing creative
+solutions that improve user experiences. I am
+committed to providing high-quality applications that
+fulfil user needs and go above and beyond expectations.
+In addition to my technical competence, I have a sharp
+sense of detail and a steadfast dedication to producing
+excellence.
+</p>
+            </div>
+            <div class="about">
+                <div class="lable">
+                    <i class="fa fa-superpowers" aria-hidden="true"></i>
+                    <h4 class="title2">Skills</h4>
+                </div>
+                <p><b>App Development<br></b>Android Studio with Java and Kotlin Languages<br><br>
+                <b>Web Development</b><br><br><b>Database Languages: </b>SQL<br><br>
+                <b>Programming Languages: </b>C, Python, Java<br><br>
+                <b>Fundamentals of Artificial Intelligence</b></p>
+            </div>
+            <div class="about">
+                <div class="lable">
+                    <i class="fa fa-folder-open" aria-hidden="true"></i>
+                    <h4 class="title2">Projects</h4>
+                </div>
+                <p><b>KMIM - </b>One Platform for all medical information<br><br>
+                <b>FarmEzy - </b>E-commerce for agriculture<br><br>
+                <b>Presentee - </b>Smart Attendance Partner<br><br>
+                <b>EZone - </b>Smart Agriculture Partner</p>
+            </div>
+            <div class="about">
+                <div class="lable">
+                    <i class="fa fa-pencil" aria-hidden="true"></i></i>
+                    <h4 class="title2">Declaration</h4>
+                </div>
+                <p>I hearby declare that all the details furnished above are
+true to best of my knowledge and belief.
+</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
